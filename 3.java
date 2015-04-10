@@ -13,9 +13,12 @@ public class No3 {
         int angka=input.nextInt();
         put.setAngka(angka);
         c=angka;
+        System.out.print(c+"!="+c+"x");
         for(int i=1;i<c;i++){
+            System.out.print(c-i+"x");
             angka=angka*(c-i);
         }
+        System.out.print("="+angka);
         System.out.println("Hasil : "+angka);
     }
     
